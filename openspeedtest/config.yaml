@@ -8,5 +8,4 @@ init: false
 name: OpenSpeedTest
 ingress: true
 slug: openspeedtest
-url: https://hub.docker.com/r/openspeedtest/latest
-version: latest
+version: ""1.1.0"
