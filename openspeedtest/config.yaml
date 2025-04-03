@@ -3,15 +3,10 @@ arch:
 - amd64
 - i386
 description: Free & Open-Source HTML5 Network Performance Estimation Tool
-image: openspeedtest/latest
+image: irakhlin/openspeedtest
 init: false
 name: OpenSpeedTest
-ports:
-  3000/tcp: 3000
-  3001/tcp: null
-ports_description:
-  3000/tcp: HTTP
-  3001/tcp: HTTPS
+ingress: true
 slug: openspeedtest
 url: https://hub.docker.com/r/openspeedtest/latest
 version: v2.0.6
